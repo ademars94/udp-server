@@ -1,0 +1,3 @@
+/Users/ademars94/code/cpp/udp-server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ademars94/code/cpp/udp-server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ademars94/code/cpp/udp-server/cmake-build-debug/CMakeFiles/udp_server.dir

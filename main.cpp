@@ -3,22 +3,24 @@
 
 using namespace std;
 
+// https://www.cs.rutgers.edu/~pxk/417/notes/sockets/udp.html
+
 int main() {
-  cout << "Hello, World!\n" << endl;
+  cout << "Hello this is dog." << endl;
 
-//  int sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+  // STEP 1: Creating a socket
 
-  int one = 1;
-  int two = 2;
-  int three = 3;
+  int domain = AF_INET;
+  int type = SOCK_DGRAM;
+  int protocol = 0; // SOCK_DGRAM only has one type of protocol
 
-  int *oneP;
+  int fd = socket(domain, type, protocol);
 
-  oneP = &one;
+  // STEP 2: Assign a transport address to the socket
+  //   -
 
-  cout << "Output:" << endl;
-  cout << one << endl;
-  cout << *oneP << endl;
 
+
+  cout << "Goodbye." << endl;
   return 0;
 }
